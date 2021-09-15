@@ -109,10 +109,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. global  binding will return the window. There's no context given, so JavaScript "points" to the window.
+  2. explicit binding uses "dot notation" such as .call() to explicitly define "this"
+  3. new binding is used when we are using constructor functions. "this" ends up referring to a specific object that we creat and return with the constructor function.
+  4. implicit binding is the most common type of binding. In this case, "this" only applies to objects with methods, and is whatever is to the left of the dot. Happens when a function is invoked.
 */
 
 
